@@ -1,0 +1,21 @@
+{
+  "name": "ethaddr",
+  "version": "1.0.0",
+  "description": "Ethereum Address Validator",
+  "main": "lib/ethaddr.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "keywords": [
+    "ethereum"
+  ],
+  "author": "Shravan Shandilya",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "sha3": "^1.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2"
+  }
+}
